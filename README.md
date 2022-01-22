@@ -12,6 +12,10 @@ O padrão Adapter pode ser utilizado para facilitar a alteração da loja aprese
 
 ### Inicialização
 	
+#### Configurando as variáveis de ambiente
+Dentro da pasta de cada projeto, renomear o arquivo _.env.example_ para _.env_. 
+Desta forma, as variáveis de ambiente corretas poderão ser visualizadas pelo código do projeto.
+	
 #### Iniciando os servidores de cada loja
  1. Executar `php artisan serve --port=8000` no dentro do diretório _marketplace_store1_.
  2. Executar `php artisan serve --port=8080` no dentro do diretório _marketplace_store2_.
@@ -49,9 +53,9 @@ Enviar para _http://localhost:3000/api/store/products_ pelo método _http POST_ 
 {
 	"name": "Luxury Product",
 	"description": "A new awesome product",
-    "score": 10,
-    "price": 94.50,
-    "in_stock": 8
+    	"score": 10,
+    	"price": 94.50,
+	"in_stock": 8
 }
 ```
 <br/>
