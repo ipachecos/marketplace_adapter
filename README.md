@@ -11,6 +11,9 @@ A página inical do marketplace apresenta os produtos de apenas uma das 3 lojas 
 O padrão Adapter pode ser utilizado para facilitar a alteração da loja apresentada na tela inicial.
 
 ### Inicialização
+
+#### Instalando as dependências
+Dentro da pasta de cada projeto (_marketplace_adapter_, _marketplace_store1_, _marketplace_store2_ e _marketplace_store3_), executar o comando `composer install` para instalar as dependências dos projetos.
 	
 #### Configurando as variáveis de ambiente
 Dentro da pasta de cada projeto, renomear o arquivo _.env.example_ para _.env_. 
